@@ -1,0 +1,11 @@
+.seven-segment-container {
+    position: relative;
+}
+
+.seven-segment {
+    position: absolute;
+}
+
+.active-segment, .segment-separator {
+    filter: drop-shadow(0 0 18px #ff9977);
+}
